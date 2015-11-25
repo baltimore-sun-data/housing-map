@@ -6,6 +6,10 @@ This README would normally document whatever steps are necessary to get your app
 
 * This repository contains a map of public housing, tax credits and opportunities, using source materials from the University of Maryland's National Center for Smart Growth Research & Education. 
 
+### Development history ###
+
+A gist with early development history lives (for now) at https://gist.github.com/borpglass/f6c9c651c9cc7e28c4f1  ... but will be going away after deployment. 
+
 ### Todo list ###
 
 * x Get formatting working on main map
