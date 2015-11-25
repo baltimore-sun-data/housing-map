@@ -26,15 +26,16 @@ A gist with early development history lives (for now) at https://gist.github.com
 * x Add main chatter 
 * x Add quick bits of chatter over individual maps
 * x Add general credit text to the bottom, with a link out to the ESRI version of the map
-* Move from gist to bitbucket and update documentation
-* Start doing all your dev/testing on your mac rather than the server. This will allow scss compilations
+* x Move from gist to bitbucket and update documentation
+* x Start doing all your dev/testing on your mac rather than the server. This will allow scss compilations
 * Get css into scss form using css2sass.herokuapp.com, just to practice good habits. Extract it to its own file
-* Since the small maps are missing some dots, take screenshots of close-in views, then overlay for thoroughness.
+* Small maps miss some dots. Take screenshots of close-in views, then overlay for better size/thoroughness.
 * - Arundel
 * - Carroll
 * - Harford 
 * - Howard
-* Also hand-code a legend
+* Do remaining items on Adam's list
+* Hand-code a legend - make it hot-swappable with arrow instructions, since you did not discuss this with Adam.
 * Talk with the team on Monday about where we stand
 * Iterate with even better static images (preferably gif or png versions of a larger image, scaled down)
 * If time allows, consider trying to link each static image to js that reloads the large map at the appropriate extent
@@ -44,6 +45,7 @@ A gist with early development history lives (for now) at https://gist.github.com
 * Create storylink
 * Make ESRI map public
 * Deploy
+* Get a MarkDown syntax module for your local text editor, since it currently freaks every time you type a quote in a README.md
 
 ### Contribution guidelines ###
 
