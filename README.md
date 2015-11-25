@@ -28,8 +28,10 @@ A gist with early development history lives (for now) at https://gist.github.com
 * x Add general credit text to the bottom, with a link out to the ESRI version of the map
 * x Move from gist to bitbucket and update documentation
 * x Start doing all your dev/testing on your mac rather than the server. This will allow scss compilations
-* Get css into scss form using css2sass.herokuapp.com, just to practice good habits. Extract it to its own file
-* Small maps miss some dots. Take screenshots of close-in views, then overlay for better size/thoroughness.
+* x Extract css into its own file
+* Get css into scss form using css2sass.herokuapp.com to practice good habits. (Actually, no need; just add a couple variables.)
+* Update sample push cycle to include scss compilation
+* Small maps miss some dots. Take screenshots of close-in views, then overlay for better size/thoroughness
 * - Arundel
 * - Carroll
 * - Harford 
@@ -52,6 +54,8 @@ A gist with early development history lives (for now) at https://gist.github.com
 The general deployment pattern for this repository is as follow: Make all changes (including compilations of scss) on local workstation; test on local workstation; push to bitbucket; clone to server. A sample push cycle on a local worksation after edits: 
 
 cd housing-map
+
+sass style.scss style.css
 
 git add *
 
