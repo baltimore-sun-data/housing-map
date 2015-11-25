@@ -47,12 +47,21 @@ A gist with early development history lives (for now) at https://gist.github.com
 
 ### Contribution guidelines ###
 
-The general deployment pattern for this repository is as follow: Make all changes (including compilations of scss) on local workstation; test on local workstation; push to bitbucket; clone to server. A sample push cycle: 
+The general deployment pattern for this repository is as follow: Make all changes (including compilations of scss) on local workstation; test on local workstation; push to bitbucket; clone to server. A sample push cycle on a local worksation after edits: 
 
 cd housing-map
+
 git add *
+
 git commit -m 'Sundries'
+
 git push -u origin master
+
+... and a sample pull cycle on the server: 
+
+cd housing-map
+
+git pull origin master
 
 ### Who do I talk to? ###
 
