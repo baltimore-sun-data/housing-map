@@ -26,10 +26,10 @@ This README would normally document whatever steps are necessary to get your app
 * Start doing all your dev/testing on your mac rather than the server. This will allow scss compilations
 * Get css into scss form using css2sass.herokuapp.com, just to practice good habits. Extract it to its own file
 * Since the small maps are missing some dots, take screenshots of close-in views, then overlay for thoroughness.
- - Arundel
- - Carroll
- - Harford 
- - Howard
+* - Arundel
+* - Carroll
+* - Harford 
+* - Howard
 * Also hand-code a legend
 * Talk with the team on Monday about where we stand
 * Iterate with even better static images (preferably gif or png versions of a larger image, scaled down)
