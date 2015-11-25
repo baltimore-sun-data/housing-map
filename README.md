@@ -48,6 +48,7 @@ A gist with early development history lives (for now) at https://gist.github.com
 * Make ESRI map public
 * Deploy
 * Get a MarkDown syntax module for your local text editor, since it currently freaks every time you type a quote in a README.md
+* Set up scss syntax highlighting as well for similar reasons
 
 ### Contribution guidelines ###
 
