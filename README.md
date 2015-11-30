@@ -51,6 +51,7 @@ A gist with early development history lives (for now) at https://gist.github.com
 *  x Add some padding above the source and make it italic
 *  x Add a credit line for yourself
 *  x Add a mention of the fact that the small, static maps are not to scale 
+*  - Fix fonts for uniform display
 *  - See additional notes in email on things to fix on blocks at various sizes 
 * Convert the "black and yellow dots" to "black, brown and yellow dots" per notes in your planner
 * Remove the base map entirely so as to avoid giving too much location information about individual houses
