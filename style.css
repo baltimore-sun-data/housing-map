@@ -39,7 +39,7 @@ h1 {
 
 p.mainchatter {
   font: 20px Georgia,Serif;
-  line-height: 170%; }
+  line-height: 27px; }
 
 p.instruction {
   font-style: italic; }
@@ -99,24 +99,47 @@ div.credits a {
 Size-specific fixes
 ===============================================================
 */
-@media (max-width: 900px) {
+@media (max-width: 1260px) {
+  div.columnone p, div.columntwo p {
+    min-height: 140px; }
+
+  div.columnone p, div.columntwo p, div.columnone h2, div.columntwo h2 {
+    position: relative;
+    top: 40px; } }
+@media (max-width: 940px) {
   div.columnone h2 span.optional {
     display: none; }
 
   div.columnone p, div.columntwo p {
-    min-height: 140px; } }
-@media (max-width: 800px) {
+    min-height: 170px; }
+
+  div.columnone p, div.columntwo p, div.columnone h2, div.columntwo h2 {
+    position: relative;
+    top: 40px; } }
+@media (max-width: 840px) {
   div.columnone p, div.columntwo p {
-    min-height: 160px; } }
-@media (max-width: 700px) {
+    min-height: 200px; }
+
+  div.columnone p, div.columntwo p, div.columnone h2, div.columntwo h2 {
+    position: relative;
+    top: 60px; } }
+@media (max-width: 740px) {
   div.columnone p, div.columntwo p {
-    min-height: 190px; } }
+    min-height: 230px; }
+
+  div.columnone p, div.columntwo p, div.columnone h2, div.columntwo h2 {
+    position: relative;
+    top: 60px; } }
 @media (max-width: 640px) {
   body {
     width: 95%; }
 
   div.columnone, div.columntwo {
     width: 100%;
-    float: left; } }
+    float: left; }
+
+  div.columnone p, div.columntwo p, div.columnone h2, div.columntwo h2 {
+    position: relative;
+    top: 110px; } }
 
 /*# sourceMappingURL=style.css.map */
