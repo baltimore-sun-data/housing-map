@@ -29,13 +29,15 @@ A gist with early development history lives (for now) at https://gist.github.com
 * x Move from gist to bitbucket and update documentation
 * x Start doing all your dev/testing on your mac rather than the server. This will allow scss compilations
 * x Extract css into its own file
-* Get css into scss form using css2sass.herokuapp.com to practice good habits. (Actually, no need; just add a couple variables.)
-* Update sample push cycle to include scss compilation
+* x Get css into scss form using css2sass.herokuapp.com to practice good habits. (Actually, no need; just add a couple variables.)
+* x Update sample push cycle to include scss compilation
 * Small maps miss some dots. Take screenshots of close-in views, then overlay for better size/thoroughness
-* - Arundel
-* - Carroll
-* - Harford 
-* - Howard
+* x Arundel
+* x Carroll
+* x Harford 
+* x Howard
+* x I'm using a ___-point stroke to size up dots. Yellow stroke color: #dace32 ... Black stroke color: #151514 ... each stroke at 80% opacity on the outside.
+* Push to server again. 
 * Do remaining items on Adam's list
 * Hand-code a legend - make it hot-swappable with arrow instructions, since you did not discuss this with Adam.
 * Talk with the team on Monday about where we stand
