@@ -41,6 +41,9 @@ p.mainchatter {
   font: 20px Georgia,Serif;
   line-height: 170%; }
 
+p.instruction {
+  font-style: italic; }
+
 div.embed-container h1, div.embed-container h2 {
   width: 100%;
   text-align: left;
