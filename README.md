@@ -29,7 +29,8 @@ A gist with early development history lives (for now) at https://gist.github.com
 * x Move from gist to bitbucket and update documentation
 * x Start doing all your dev/testing on your mac rather than the server. This will allow scss compilations
 * x Extract css into its own file
-* x Get css into scss form using css2sass.herokuapp.com to practice good habits. (Actually, no need; just add a couple variables.)
+* x Get css into scss form using css2sass.herokuapp.com to practice good habits. 
+  (Actually, no need; just add a couple variables.)
 * x Update sample push cycle to include scss compilation
 * Small maps miss some dots. Take screenshots of close-in views, then overlay for better size/thoroughness
 * x Arundel
@@ -51,6 +52,13 @@ A gist with early development history lives (for now) at https://gist.github.com
 *  x Add a credit line for yourself
 *  x Add a mention of the fact that the small, static maps are not to scale 
 *  - See additional notes in email on things to fix on blocks at various sizes 
+* Convert the "black and yellow dots" to "black, brown and yellow dots" per notes in your planner
+* Remove the base map entirely so as to avoid giving too much location information about individual houses
+* Add a Baltimore County breakout map
+* Redo the other flat maps to reflect the new color scheme. 
+  (This should be fairly quick, since our county shapes remain the same.)
+* Add new chatter from our reporter
+* Switch to other mapping project, assuming it is Tuesday. If not, keep moving on these TODOs.
 * Hand-code a legend - make it hot-swappable with arrow instructions, since you did not discuss this with Adam.
 * Talk with the team on Monday about where we stand
 * Iterate with even better static images (preferably gif or png versions of a larger image, scaled down)
