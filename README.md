@@ -37,8 +37,19 @@ A gist with early development history lives (for now) at https://gist.github.com
 * x Harford 
 * x Howard
 * x I'm using a ___-point stroke to size up dots. Yellow stroke color: #dace32 ... Black stroke color: #151514 ... each stroke at 80% opacity on the outside.
-* Push to server again. 
+* x Push to server again. 
 * Do remaining items on Adam's list
+*  - Put the main head/chatter in our site (serif) styles, then put everything below that in Lato.
+*  - Change "chevrons" to "arrows"
+*  - Add "map may take a moment to load."
+*  - Slightly more leading in the chatter
+*  - Make "to view legend ... " italic
+*  - Simplify popups - lose labels (per example in email)
+*  - On legend, move "public housing" above "tax credits-elderly"
+*  - More leading in the chatter here as well. Can probably be same as above. 
+*  - Add some padding above the source and make it italic
+*  - Add a credit line for yourself
+*  - See additional notes in email on things to fix on blocks at various sizes 
 * Hand-code a legend - make it hot-swappable with arrow instructions, since you did not discuss this with Adam.
 * Talk with the team on Monday about where we stand
 * Iterate with even better static images (preferably gif or png versions of a larger image, scaled down)
