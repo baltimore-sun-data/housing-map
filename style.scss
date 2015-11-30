@@ -41,8 +41,11 @@ Size-specific fixes
 ===============================================================
 */
 
+@media (max-width: 900px) {
+	div.columnone h2 span.optional{display:none;}
+	div.columnone p, div.columntwo p{min-height:140px;}
+}
 @media (max-width: 800px) {
-	div.columnone p span.optional{display:none;}
 	div.columnone p, div.columntwo p{min-height:160px;}
 }
 @media (max-width: 700px) {
