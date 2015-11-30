@@ -59,7 +59,9 @@ div.columnone div.flatwrap, div.columntwo div.flatwrap {
 
 div.columnone img, div.columntwo img {
   width: 100%;
-  height: auto; }
+  height: auto;
+  position: relative;
+  top: 5px; }
 
 div.credits:before {
   content: " ";
