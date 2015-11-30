@@ -99,9 +99,18 @@ div.credits a {
 Size-specific fixes
 ===============================================================
 */
+@media (max-width: 740px) {
+  div.columnone p span.optional {
+    display: none; }
+
+  div.columnone p, div.columntwo p {
+    min-height: 160px; } }
+@media (max-width: 700px) {
+  div.columnone p, div.columntwo p {
+    min-height: 180px; } }
 @media (max-width: 640px) {
   body {
-    width: 100%; }
+    width: 95%; }
 
   div.columnone, div.columntwo {
     width: 100%;
