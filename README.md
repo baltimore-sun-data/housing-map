@@ -44,11 +44,12 @@ A gist with early development history lives (for now) at https://gist.github.com
 *  x Add "map may take a moment to load."
 *  x Slightly more leading in the chatter
 *  x Make "to view legend ... " italic
-*  - Simplify popups - lose labels (per example in email)
-*  - On legend, move "public housing" above "tax credits-elderly"
-*  - More leading in the chatter here as well. Can probably be same as above. 
-*  - Add some padding above the source and make it italic
-*  - Add a credit line for yourself
+*  x Simplify popups - lose labels (per example in email)
+*  x On legend, move "public housing" above "tax credits-elderly"
+*  x More leading in the chatter here as well. Can probably be same as above. 
+*  x Add some padding above the source and make it italic
+*  x Add a credit line for yourself
+*  x Add a mention of the fact that the small, static maps are not to scale 
 *  - See additional notes in email on things to fix on blocks at various sizes 
 * Hand-code a legend - make it hot-swappable with arrow instructions, since you did not discuss this with Adam.
 * Talk with the team on Monday about where we stand

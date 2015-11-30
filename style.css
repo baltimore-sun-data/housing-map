@@ -85,8 +85,9 @@ div.credits:before {
 
 div.credits {
   text-align: left;
-  padding: 70px 0px;
+  padding: 120px 0px;
   position: relative;
+  font-style: italic;
   top: 80px;
   color: #bbbbbb; }
 
