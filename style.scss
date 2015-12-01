@@ -28,9 +28,9 @@ div.embed-container h1, div.embed-container h2{width:100%; text-align:left; marg
 div.columnone, div.columntwo{background:white; width:49%;border:0px none solid; padding:0px; line-height:170%; font-family: "Lato", "HelveticaNeue", Helvetica Neue, Helvetica, sans-serif;}
 div.columnone{float:left;}
 div.columntwo{float:right;}
+div.columnone p:after, div.columntwo p:after{content:" "; display:block; width:100%; height:1px; clear:both; }
 div.columnone div.flatwrap, div.columntwo div.flatwrap{width:100%; height:auto; overflow:hidden; text-align:center; border:1px solid $main-gray; background:$main-gray;}
 div.columnone img, div.columntwo img{width:100%; height:auto; position:relative; top:5px;}
-/*div.credits:before{content:" "; width:100%; display:block; clear:both;}*/
 div.credits{text-align:left; padding:120px 0px; position:relative; font-style:italic; top:80px; color: $main-gray;}
 div.credits a{color: $main-gray;}
 
