@@ -53,8 +53,8 @@ A gist with early development history lives (for now) at https://gist.github.com
 *  x Add a mention of the fact that the small, static maps are not to scale 
 *  x Fix fonts for uniform display
 *  x See additional notes in email on things to fix on blocks at various sizes 
-* Convert the "black and yellow dots" to "black, brown and yellow dots" per notes in your planner
-* Remove the base map entirely so as to avoid giving too much location information about individual houses
+* x Convert the "black and yellow dots" to "black, blue and yellow dots" per notes in your planner
+* x Remove the base map entirely so as to avoid giving too much location information about individual houses
 * Add a Baltimore County breakout map
 * Redo the other flat maps to reflect the new color scheme. 
   (This should be fairly quick, since our county shapes remain the same.)
