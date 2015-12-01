@@ -25,13 +25,12 @@ h1 {font-weight: 400; font-size:300%; font-family: Georgia,serif;}
 p.mainchatter {font: 20px Georgia,Serif; line-height:27px;}
 p.instruction {font-style:italic;}
 div.embed-container h1, div.embed-container h2{width:100%; text-align:left; margin-top:20px;}
-/*div.columnone, div.columntwo{background:white; width:49%;border:0px none solid; padding:0px; line-height:170%; font-family: "Montserrat", "Lato", "HelveticaNeue", Helvetica Neue, Helvetica, sans-serif;}*/
-div.columnone, div.columntwo{background:white; width:49%;border:0px none solid; padding:0px; line-height:170%; font-family: "Lato", serif;}
+div.columnone, div.columntwo{background:white; width:49%;border:0px none solid; padding:0px; line-height:170%; font-family: "Lato", "HelveticaNeue", Helvetica Neue, Helvetica, sans-serif;}
 div.columnone{float:left;}
 div.columntwo{float:right;}
 div.columnone div.flatwrap, div.columntwo div.flatwrap{width:100%; height:auto; overflow:hidden; text-align:center; border:1px solid $main-gray; background:$main-gray;}
 div.columnone img, div.columntwo img{width:100%; height:auto; position:relative; top:5px;}
-div.credits:before{content:" "; width:100%; display:block; clear:both;}
+/*div.credits:before{content:" "; width:100%; display:block; clear:both;}*/
 div.credits{text-align:left; padding:120px 0px; position:relative; font-style:italic; top:80px; color: $main-gray;}
 div.credits a{color: $main-gray;}
 
@@ -64,4 +63,5 @@ Size-specific fixes
 	div.columnone, div.columntwo{width:100%; float:left;}
 	div.columnone p, div.columntwo p, div.columnone h2, div.columntwo h2{position:relative; top:110px;}
 }
+
 

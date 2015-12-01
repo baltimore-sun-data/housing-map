@@ -49,14 +49,13 @@ div.embed-container h1, div.embed-container h2 {
   text-align: left;
   margin-top: 20px; }
 
-/*div.columnone, div.columntwo{background:white; width:49%;border:0px none solid; padding:0px; line-height:170%; font-family: "Montserrat", "Lato", "HelveticaNeue", Helvetica Neue, Helvetica, sans-serif;}*/
 div.columnone, div.columntwo {
   background: white;
   width: 49%;
   border: 0px none solid;
   padding: 0px;
   line-height: 170%;
-  font-family: "Lato", serif; }
+  font-family: "Lato", "HelveticaNeue", Helvetica Neue, Helvetica, sans-serif; }
 
 div.columnone {
   float: left; }
@@ -78,12 +77,7 @@ div.columnone img, div.columntwo img {
   position: relative;
   top: 5px; }
 
-div.credits:before {
-  content: " ";
-  width: 100%;
-  display: block;
-  clear: both; }
-
+/*div.credits:before{content:" "; width:100%; display:block; clear:both;}*/
 div.credits {
   text-align: left;
   padding: 120px 0px;
