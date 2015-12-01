@@ -49,13 +49,14 @@ div.embed-container h1, div.embed-container h2 {
   text-align: left;
   margin-top: 20px; }
 
+/*div.columnone, div.columntwo{background:white; width:49%;border:0px none solid; padding:0px; line-height:170%; font-family: "Montserrat", "Lato", "HelveticaNeue", Helvetica Neue, Helvetica, sans-serif;}*/
 div.columnone, div.columntwo {
   background: white;
   width: 49%;
   border: 0px none solid;
   padding: 0px;
   line-height: 170%;
-  font-family: "Montserrat", "Lato", "HelveticaNeue", Helvetica Neue, Helvetica, sans-serif; }
+  font-family: "Lato", serif; }
 
 div.columnone {
   float: left; }
