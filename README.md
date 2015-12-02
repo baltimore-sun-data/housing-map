@@ -37,9 +37,9 @@ A gist with early development history lives (for now) at https://gist.github.com
 * x Carroll
 * x Harford 
 * x Howard
-* x I'm using a ___-point stroke to size up dots. Yellow stroke color: #dace32 ... Black stroke color: #151514 ... each stroke at 80% opacity on the outside.
+* x I am using a 5-point stroke to size up dots. Yellow stroke color: #dace32 ... Black stroke color: #151514 ... each stroke at 80% opacity on the outside.
 * x Push to server again. 
-* Do remaining items on Adam's list
+* x Do remaining items on list from Adam
 *  x Put the main head/chatter in our site (serif) styles, then put everything below that in Lato.
 *  x Change "chevrons" to "arrows"
 *  x Add "map may take a moment to load."
@@ -55,16 +55,16 @@ A gist with early development history lives (for now) at https://gist.github.com
 *  x See additional notes in email on things to fix on blocks at various sizes 
 * x Convert the "black and yellow dots" to "black, blue and yellow dots" per notes in your planner
 * x Remove the base map entirely so as to avoid giving too much location information about individual houses
-* Add a Baltimore County breakout map
-* Redo the other flat maps to reflect the new color scheme. 
-  (This should be fairly quick, since our county shapes remain the same.)
+* x Add a Baltimore County breakout map. Stroke colors are #dace32 (yellow), #151514 (black) and #279bdf (blue) 
+* x Redo the other flat maps to reflect the new color scheme. 
+  ( This should be fairly quick, since our county shapes remain the same.)
+* x With five maps in place, tweak formatting to remove layout hijinks
 * Add new chatter from our reporter
-* Switch to other mapping project, assuming it is Tuesday. If not, keep moving on these TODOs.
 * Hand-code a legend - make it hot-swappable with arrow instructions, since you did not discuss this with Adam.
-* Talk with the team on Monday about where we stand
-* Iterate with even better static images (preferably gif or png versions of a larger image, scaled down)
-* If time allows, consider trying to link each static image to js that reloads the large map at the appropriate extent
+* Switch to other mapping project, assuming it is Thursday. If not, keep moving on these TODOs.
 * Integrate headline fetcher
+* Talk with the team on Monday about where we stand
+* If time allows, consider trying to link each static image to js that reloads the large map at the appropriate extent
 * User testing
 * Delete development notes 
 * Create storylink
