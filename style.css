@@ -97,6 +97,15 @@ div.credits {
 div.credits a {
   color: #bbbbbb; }
 
+div.mapone {
+  display: auto;
+  overflow: hidden; }
+
+div.maptwo {
+  display: auto;
+  height: 2px;
+  overflow: hidden; }
+
 /*
 ===============================================================
 Size-specific fixes
