@@ -60,7 +60,7 @@ A gist with early development history lives (for now) at https://gist.github.com
   ( This should be fairly quick, since our county shapes remain the same.)
 * x With five maps in place, tweak formatting to remove layout hijinks
 * (Decided not to hand-code the legend.)
-* x Add a toggle for the maps
+* x Add a toggle for the maps to show Section 8 data from http://egis.hud.opendata.arcgis.com/datasets/8d45c34f7f64433586ef6a448d00ca12_0
 * Consider cleaning up that toggler a bit and adding a couple niceties if time allows
 * Add new chatter from our reporter
 * Switch to other mapping project, assuming it is Thursday. If not, keep moving on these TODOs.
