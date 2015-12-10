@@ -47,7 +47,8 @@ div#toggler {
   margin: 15px 5px 15px 0px; }
 
 div#toggler a:hover {
-  color: #000000; }
+  color: #000000;
+  font-weight: bold; }
 
 div#toggler a {
   background: #daa520;
