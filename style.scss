@@ -5,6 +5,7 @@ $main-gray: #cccccc;
 $sans-family: "Lato", "HelveticaNeue", Helvetica Neue, Helvetica, sans-serif;
 $serif-family: Georgia,serif;
 
+
 /*
 ===============================================================
 Basic page elements (Any SCSS variables above this will vanish)
@@ -28,10 +29,30 @@ Chatter, instructions and toggler
 p.mainchatter {font: 20px Georgia,Serif; line-height:27px;}
 p.instruction {font-style:italic;}
 div#toggler {text-align:left; margin:15px 5px 15px 0px;}
-div#toggler a {background:$main-gray; padding:4px; text-decoration:none; color:$dark-gray; border-radius:2px;}
+//div#toggler a {background:$main-gray; padding:4px; text-decoration:none; color:$dark-gray; border-radius:2px;}
 div#toggler a:hover {color:$blackish;} 
-div#toggler a.on {color:$blackish;}
-div#toggler a.off {color:$dark-gray;}
+//div#toggler a.on {color:$blackish;}
+//div#toggler a.off {color:$dark-gray;}
+div#toggler a {
+    background: #daa520;
+    padding: 10px;
+    text-decoration: none;
+    color: $dark-gray;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+div#toggler a.on {
+    color: $blackish;
+    font-weight: 900;
+}
+
+
+div#toggler a.off {
+    color: $blackish;
+    font-weight: 100;
+}
 
 /*
 ===============================================================

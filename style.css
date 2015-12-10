@@ -46,21 +46,25 @@ div#toggler {
   text-align: left;
   margin: 15px 5px 15px 0px; }
 
-div#toggler a {
-  background: #cccccc;
-  padding: 4px;
-  text-decoration: none;
-  color: #555555;
-  border-radius: 2px; }
-
 div#toggler a:hover {
   color: #000000; }
 
+div#toggler a {
+  background: #daa520;
+  padding: 10px;
+  text-decoration: none;
+  color: #555555;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-family: sans-serif; }
+
 div#toggler a.on {
-  color: #000000; }
+  color: #000000;
+  font-weight: 900; }
 
 div#toggler a.off {
-  color: #555555; }
+  color: #000000;
+  font-weight: 100; }
 
 /*
 ===============================================================
