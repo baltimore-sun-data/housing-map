@@ -61,16 +61,14 @@ A gist with early development history lives (for now) at https://gist.github.com
 * x With five maps in place, tweak formatting to remove layout hijinks
 * (Decided not to hand-code the legend.)
 * x Add a toggle for the maps to show Section 8 data from http://egis.hud.opendata.arcgis.com/datasets/8d45c34f7f64433586ef6a448d00ca12_0
-* Add descriptions of the two maps to the main chatter, move tabs to upper left corner
+* x Add descriptions of the two maps to the main chatter, move tabs to upper left corner
 * Add the blue dots to the legend, then add the ability to show/hide all three dot layers. (Adam has said he can help with this second part.)
-* Fix spelling error in credit line
-* Check it all into BitBucket
-* Add new chatter from our reporter?
-* Switch to other mapping project, assuming it is Thursday. If not, keep moving on these TODOs.
-* Integrate headline fetcher
-* Talk with the team on Monday about where we stand
-* If time allows, consider trying to link each static image to js that reloads the large map at the appropriate extent
-* User testing
+* x Fix spelling error in credit line
+* x Check it all into BitBucket
+* x Canceled: Add new chatter from our reporter?
+* Consider abstracting all of the javascript to its own file. 
+* If this holds for another week, integrate the PHP headline fetcher.
+* Similarly, if time allows, consider trying to link each static image to js that reloads the large map at the appropriate extent
 * Delete development notes 
 * Create storylink
 * Make ESRI map public
