@@ -43,7 +43,15 @@ p.instruction {
   font-style: italic; }
 
 div#toggler {
-  text-align: left; }
+  align: left;
+  margin: 15px 5px 15px 0px; }
+
+div#toggler a {
+  background: #cccccc;
+  padding: 4px;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 2px; }
 
 /*
 ===============================================================
@@ -85,8 +93,8 @@ section div.flatwrap {
   height: auto;
   overflow: hidden;
   text-align: center;
-  border: 1px solid #bbbbbb;
-  background: #bbbbbb; }
+  border: 1px solid #cccccc;
+  background: #cccccc; }
 
 section img {
   width: 100%;
@@ -100,10 +108,10 @@ div.credits {
   position: relative;
   font-style: italic;
   top: 80px;
-  color: #bbbbbb; }
+  color: #cccccc; }
 
 div.credits a {
-  color: #bbbbbb; }
+  color: #cccccc; }
 
 div.mapone {
   display: auto;

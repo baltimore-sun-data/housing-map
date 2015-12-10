@@ -1,5 +1,5 @@
 
-$main-gray: #bbbbbb;
+$main-gray: #cccccc;
 $sans-family: "Lato", "HelveticaNeue", Helvetica Neue, Helvetica, sans-serif;
 $serif-family: Georgia,serif;
 
@@ -25,7 +25,8 @@ Chatter, instructions and toggler
 
 p.mainchatter {font: 20px Georgia,Serif; line-height:27px;}
 p.instruction {font-style:italic;}
-div#toggler {text-align:left;}
+div#toggler {align:left; margin:15px 5px 15px 0px;}
+div#toggler a {background:$main-gray; padding:4px; text-decoration:none; color:#000000; border-radius:2px;}
 
 /*
 ===============================================================
