@@ -56,6 +56,12 @@ div#toggler a {
 div#toggler a:hover {
   color: #000000; }
 
+div#toggler a.on {
+  color: #000000; }
+
+div#toggler a.off {
+  color: #555555; }
+
 /*
 ===============================================================
 Other map-specific elements

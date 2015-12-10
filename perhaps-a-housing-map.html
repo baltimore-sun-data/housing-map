@@ -59,7 +59,8 @@
 			  $('#toggler a')[0].css('color:555555;');
 			  $('#toggler a')[1].css('color:000000;');
 			}
-			var togglercode = '<a href="#" onClick="showOpportunity()">Opportunity map</a> | <a href="#" onClick="showVouchers()">Section 8 density map</a>';
+			var togglercode  = '<a href="#" class="on" onClick="showOpportunity()">Opportunity map</a>';
+			var togglercode += '<a href="#" class="off" onClick="showVouchers()">Section 8 density map</a>';
 			$('#toggler').html(togglercode);
 		});	
 	</script>
