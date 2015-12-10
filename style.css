@@ -43,7 +43,7 @@ p.instruction {
   font-style: italic; }
 
 div#toggler {
-  align: left;
+  text-align: left;
   margin: 15px 5px 15px 0px; }
 
 div#toggler a {
