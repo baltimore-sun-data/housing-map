@@ -50,10 +50,14 @@
 			showOpportunity = function(){
 			  $('.'+"mapone").css('height','500px');
 			  $('.'+"maptwo").css('height','1px');
+			  $('#toggler a')[0].css('color:000000;');
+			  $('#toggler a')[1].css('color:#555555;');
 			}
 			showVouchers = function(){
 			  $('.'+"mapone").css('height','1px');
 			  $('.'+"maptwo").css('height','500px');
+			  $('#toggler a')[0].css('color:555555;');
+			  $('#toggler a')[1].css('color:000000;');
 			}
 			var togglercode = '<a href="#" onClick="showOpportunity()">Opportunity map</a> | <a href="#" onClick="showVouchers()">Section 8 density map</a>';
 			$('#toggler').html(togglercode);

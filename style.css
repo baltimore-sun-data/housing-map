@@ -50,8 +50,11 @@ div#toggler a {
   background: #cccccc;
   padding: 4px;
   text-decoration: none;
-  color: #000000;
+  color: #555555;
   border-radius: 2px; }
+
+div#toggler a:hover {
+  color: #000000; }
 
 /*
 ===============================================================
