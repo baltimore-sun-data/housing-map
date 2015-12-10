@@ -16,16 +16,25 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
 div.embed-container{margin-top:80px;}
 div.embed-container:after{content:""; display:block; clear:both; height:1px; width:100%; } 
 
+
 /*
 ===============================================================
-Map-specific elements
+Chatter, instructions and toggler
+===============================================================
+*/
+
+p.mainchatter {font: 20px Georgia,Serif; line-height:27px;}
+p.instruction {font-style:italic;}
+p.toggler {text-align:left;}
+
+/*
+===============================================================
+Other map-specific elements
 ===============================================================
 */
 
 iframe#frameone{width:100%; height:500px;}
 h1 {font-weight: 400; font-size:300%; font-family: $serif-family;}
-p.mainchatter {font: 20px Georgia,Serif; line-height:27px;}
-p.instruction {font-style:italic;}
 div.embed-container h1, div.embed-container h2{width:100%; text-align:left; margin-top:20px;}
 section{background:white; width:48%;border:0px none solid; padding:0px; line-height:170%; font-family: $sans-family;}
 section.left{float:left; margin-right:2%;}

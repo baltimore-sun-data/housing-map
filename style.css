@@ -32,7 +32,22 @@ div.embed-container:after {
 
 /*
 ===============================================================
-Map-specific elements
+Chatter, instructions and toggler
+===============================================================
+*/
+p.mainchatter {
+  font: 20px Georgia,Serif;
+  line-height: 27px; }
+
+p.instruction {
+  font-style: italic; }
+
+p.toggler {
+  text-align: left; }
+
+/*
+===============================================================
+Other map-specific elements
 ===============================================================
 */
 iframe#frameone {
@@ -43,13 +58,6 @@ h1 {
   font-weight: 400;
   font-size: 300%;
   font-family: Georgia, serif; }
-
-p.mainchatter {
-  font: 20px Georgia,Serif;
-  line-height: 27px; }
-
-p.instruction {
-  font-style: italic; }
 
 div.embed-container h1, div.embed-container h2 {
   width: 100%;

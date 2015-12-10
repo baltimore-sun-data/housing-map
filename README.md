@@ -62,6 +62,7 @@ A gist with early development history lives (for now) at https://gist.github.com
 * (Decided not to hand-code the legend.)
 * x Add a toggle for the maps to show Section 8 data from http://egis.hud.opendata.arcgis.com/datasets/8d45c34f7f64433586ef6a448d00ca12_0
 * Add descriptions of the two maps to the main chatter, move tabs to upper left corner
+* Add the blue dots to the legend, then add the ability to show/hide all three dot layers. (Adam has said he can help with this second part.)
 * Fix spelling error in credit line
 * Check it all into BitBucket
 * Add new chatter from our reporter?
