@@ -50,14 +50,18 @@
 			showOpportunity = function(){
 			  $('.'+"mapone").css('height','500px');
 			  $('.'+"maptwo").css('height','1px');
+			  $('#toggler a').first().removeClass('off');
 			  $('#toggler a').first().addClass('on');
 			  $('#toggler a').last().addClass('off');
+			  $('#toggler a').last().removeClass('on');
 			}
 			showVouchers = function(){
 			  $('.'+"mapone").css('height','1px');
 			  $('.'+"maptwo").css('height','500px');
+			  $('#toggler a').first().removeClass('on');
 			  $('#toggler a').first().addClass('off');
 			  $('#toggler a').last().addClass('on');
+			  $('#toggler a').last().removeClass('off');
 			}
 			var togglercode  = '<a href="#" class="on" onClick="showOpportunity()">Opportunity map</a> ';
 			togglercode += '<a href="#" class="off" onClick="showVouchers()">Section 8 density map</a>';
