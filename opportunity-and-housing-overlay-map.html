@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>Housing maps</title>
+
+	<!--
+	==============================
+	Stylesheets
+	==============================
+	-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+
+
+
+	<!--
+	==============================
+	Scripts
+	==============================
+	-->
+
+	<!--Snazzy move from Greg: Load jQuery CDN, fall back to local version if necessary -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="scripts/jquery-1.10.2.min.js">\x3C/script>') 
+	</script>
+	<!--Load the nav bar and metrics. Consider abstracting.-->
+	<script>
+		((((window.trb || (window.trb = {})).data || (trb.data = {})).metrics || (trb.data.metrics = {})).thirdparty = {
+		pageName: 'bs:data:news:maryland:housingmaps:dataproject.',
+		channel: 'news:maryland',
+		server: 'data.baltimoresun.com',
+		hier1: 'baltimoresun:news:maryland',
+		hier2: 'news:maryland',
+		prop1: 'D=pageName',
+		prop2: 'news',
+		prop38: 'dataproject',
+		prop57: 'D=c38',
+		eVar20: 'baltimoresun',
+		eVar21: 'D=c38',
+		eVar34: 'D=ch',
+		eVar35: 'D=pageName',
+		events:''
+
+		});  
+	</script>
+	<!--Allow us to toggle maps. Consider abstracting.-->
+	<script>
+		$(function(){
+			showOpportunity = function(){
+			  $('.'+"mapone").css('height','500px');
+			  $('.'+"maptwo").css('height','1px');
+			  $('#toggler a').first().removeClass('off');
+			  $('#toggler a').first().addClass('on');
+			  $('#toggler a').last().addClass('off');
+			  $('#toggler a').last().removeClass('on');
+			}
+			showVouchers = function(){
+			  $('.'+"mapone").css('height','1px');
+			  $('.'+"maptwo").css('height','500px');
+			  $('#toggler a').first().removeClass('on');
+			  $('#toggler a').first().addClass('off');
+			  $('#toggler a').last().addClass('on');
+			  $('#toggler a').last().removeClass('off');
+			}
+			var togglercode  = '<a href="#" class="on" onClick="showOpportunity()">Opportunity map</a> ';
+			togglercode += '<a href="#" class="off" onClick="showVouchers()">Section 8 density map</a>';
+			$('#toggler').html(togglercode);
+		});	
+	</script>
+	<script src="http://www.baltimoresun.com/thirdpartyservice?disablessor=true" async></script>
+ </head>
+
+
+
+ <body>
+		<div data-trb-thirdpartynav></div>
+		<div class="embed-container">
+			<h1>Public housing and tax credits in Baltimore</h1>
+			<p class="mainchatter">
+				The map below shows selected tax credits and public housing sites in the city of Baltimore and its closest suburbs. 
+				Some sites -- such as credits for developmentally disabled group homes -- have been omitted for simplicity.</p>
+			<p class="mainchatter">
+				The opportunity map shown by default overlays public housing development at tax-credit data atop a map that shows where areas fall on a mix of factors that feed into potential for personal grown and a high quality of life.
+			</p>
+			<p class="mainchatter">
+				The section 8 density map shows how much section-8 housing is present in an area. 
+			</p>
+			<p class="mainchatter instruction">
+				To view a map's legend, click the arrows in the upper left corner. Maps may take a moment to load.
+			</p>
+			<div id="toggler">
+			</div>
+			<div class="mapone">
+				<iframe id="frameone" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Public Housing-Copy-Copy" src="https://baltimoresun.maps.arcgis.com/apps/Embed/index.html?webmap=86bb852180344040aa1f376911c27724&amp;extent=-76.80,39.30,-76.45,39.30&amp;zoom=true&amp;scale=true&amp;details=true&amp;legend=true&amp;active_panel=legend&amp;disable_scroll=true&amp;theme=light"></iframe>
+			</div>
+			<div class="maptwo">
+				<iframe id="frameone" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Public Housing-Copy-Copy" src="https://baltimoresun.maps.arcgis.com/apps/Embed/index.html?webmap=a919a42acd52400b872d3d1bf733007f&amp;extent=-76.80,39.30,-76.45,39.30&amp;zoom=true&amp;scale=true&amp;details=true&amp;legend=true&amp;active_panel=legend&amp;disable_scroll=true&amp;theme=light"></iframe>
+			</div>
+			<section class="left">
+				<h2><span class="optional">Anne </span>Arundel region</h2>		
+				<p>In Anne Arundel County, most public housing developments and non-senior tax credits are clustered on the Annapolis penninsula and along the county's northern border.</p>
+				<div class="flatwrap"><img src="images/arundel-blue.jpg"></div>
+			</section>
+			<section class="right">
+				<h2>Howard region</h2>		
+				<p>Nearly all of Howard County is rated as having opportunity levels of "very high" or "high." As in most regions, public housing and tax credits are clustered in high-population areas.</p>
+				<div class="flatwrap"><img src="images/howard-blue.jpg"></div>
+			</section>
+			<section class="left">
+				<h2>Balto Co. region</h2>		
+				<p>Public housing developments in Baltimore County are generally clustered near the city -- specifically the areas near the southwest and northeast corners of the city.</p>
+				<div class="flatwrap"><img src="images/baltoco-blue.jpg"></div>
+			</section>
+			<section class="right">
+				<h2>Carroll region</h2>		
+				<p>Carroll County is the most rural of the four counties shown here. It has an abundance of areas rated by analysts as having "low" or "very low" opportunity levels.</p>
+				<div class="flatwrap"><img src="images/carroll-blue.jpg"></div>
+			</section>
+			<section class="left">
+				<h2>Harford region</h2>			
+				<p>In Harford County, public housing and non-elderly tax credits are largely clustered in the limited-opportunity corridor between Interstate 95 and a heavily traveled rail line.</p>
+				<div class="flatwrap"><img src="images/harford-blue.jpg"></div>
+			</section>
+		</div>
+		<div class="credits embed-container">
+		Static county maps may differ slightly in scale. Data sources: City of Baltimore, State of Virginia, Esri, HERE, DeLorme, Intermap, USGS, NGA, USDA, EPA, NPS, NCSG. BSMG development by Patrick Maynard and Adam Marton. For extended details and credit information, please view a full-screen version of the opportunity map <a href="https://baltimoresun.maps.arcgis.com/home/webmap/viewer.html?webmap=86bb852180344040aa1f376911c27724">here</a>.
+		</div>
+	</body>
+</html>
