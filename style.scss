@@ -22,6 +22,32 @@ div.embed-container:after{content:""; display:block; clear:both; height:1px; wid
 
 /*
 ===============================================================
+Share tools
+===============================================================
+*/
+div#share-tools{
+	color:#cccccc;
+	float:right;
+	position:relative;
+	top:22px;
+	font-size:22px;
+}
+div#share-tools:hover {
+	cursor: pointer;
+}
+span.icon-twitter{
+	visibility:visible;
+}
+span.icon-facebook{
+	visibility:visible;
+}
+span.icon-diaspora{
+	/*This one is still in testing for future projects.*/
+	visibility:hidden;	
+} 
+
+/*
+===============================================================
 Chatter, instructions and toggler
 ===============================================================
 */

@@ -67,6 +67,35 @@
 			togglercode += '<a href="#" class="off" onClick="showVouchers()">Section 8 density map</a>';
 			$('#toggler').html(togglercode);
 		});	
+
+
+
+		//===============And now some dropped-in sharing stuff that should be abstracted.================
+		function share(){
+			$(".icon-twitter").click(function(){
+
+				var twitter_url = "https://twitter.com/intent/tweet?text="+$('title')[0].innerHTML+"&url="+location.href+"&via=baltimoresun&tw_p=tweetbutton"; 
+				window.open(twitter_url, 'mywin','left=200,top=200,width=500,height=300,toolbar=1,resizable=0'); return false;
+
+			});
+			$(".icon-facebook").click(function(){
+				//var facebookUrl = "https://www.facebook.com/sharer/sharer.php?u="+location.href;
+				var facebook_url = "http://www.facebook.com/sharer.php?s=100&p[title]="+$('title')[0].innerHTML+"&p[images[0]=http://data.baltimoresun.com/best-restaurants-2014/wp-content/themes/bestrest/images/bs-logo@2x.png&p[url]="+location;
+				window.open(facebook_url, 'mywin','left=200,top=200,width=500,height=300,toolbar=1,resizable=0'); return false;
+			});
+			$(".icon-diaspora").click(function(){
+
+				var diaspora_url = "http://sharetodiaspora.github.io/?title="+$('title')[0].innerHTML+"&url="+location.href+""; 
+				window.open(diaspora_url, 'mywin','left=200,top=200,width=700,height=400,toolbar=1,resizable=0'); return false;
+
+			});
+		}
+		jQuery(function(){
+			share();
+		});
+
+
+
 	</script>
 	<script src="http://www.baltimoresun.com/thirdpartyservice?disablessor=true" async></script>
  </head>
@@ -76,7 +105,14 @@
  <body>
 		<div data-trb-thirdpartynav></div>
 		<div class="embed-container">
-			<h1>Public housing and tax credits in Baltimore</h1>
+			<div id="share-tools">
+				<span class="icon-facebook"></span>
+				<span class="icon-twitter"></span>
+				<span class="icon-diaspora"></span>
+			</div>
+			<h1>
+				Public housing and tax credits in Baltimore
+			</h1>
 			<p class="mainchatter">
 				The map below shows selected tax credits and public housing sites in the city of Baltimore and its closest suburbs. 
 				Some sites -- such as credits for developmentally disabled group homes -- have been omitted for simplicity.</p>
