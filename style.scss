@@ -39,17 +39,15 @@ div#toggler a {
     text-transform: uppercase;
     font-family: sans-serif;
 }
-
 div#toggler a.on {
     color: $blackish;
     font-weight: 900;
 }
-
-
 div#toggler a.off {
     color: $blackish;
     font-weight: 100;
 }
+
 
 /*
 ===============================================================
@@ -96,6 +94,8 @@ Size-specific fixes
 	section p, section h2{position:relative; top:60px;}
 }
 @media (max-width: 760px) {
+	p.mainchatter {font-size: 20px; line-height:26px;}
+	h1 {font-size: 250%;}
 	section p{min-height:230px;}
 	section p, section h2{position:relative; top:75px;}
 }
@@ -103,4 +103,10 @@ Size-specific fixes
 	body{width:95%;}
 	section{width:100%; float:left;}
 	section p, section h2{position:relative; top:110px;}
+	div#toggler a {font-size:12px;}
+}
+@media (max-width: 460px) {
+	h1 {font-size: 200%;}
+	p.mainchatter {font-size: 17px; line-height:23px;}
+	div#toggler a {font-size:10px;}
 }

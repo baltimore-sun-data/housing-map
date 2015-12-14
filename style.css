@@ -176,6 +176,13 @@ Size-specific fixes
     position: relative;
     top: 60px; } }
 @media (max-width: 760px) {
+  p.mainchatter {
+    font-size: 20px;
+    line-height: 26px; }
+
+  h1 {
+    font-size: 250%; }
+
   section p {
     min-height: 230px; }
 
@@ -192,6 +199,19 @@ Size-specific fixes
 
   section p, section h2 {
     position: relative;
-    top: 110px; } }
+    top: 110px; }
+
+  div#toggler a {
+    font-size: 12px; } }
+@media (max-width: 460px) {
+  h1 {
+    font-size: 200%; }
+
+  p.mainchatter {
+    font-size: 17px;
+    line-height: 23px; }
+
+  div#toggler a {
+    font-size: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
