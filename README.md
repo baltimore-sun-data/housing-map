@@ -36,9 +36,21 @@ git pull origin master
 
 ### Moving to github ###
 
-I am planning to move this repository from bitbucket to github using the method here:
+I used the directions at  http://stackoverflow.com/a/26702623/3817717   to move this repository from bitbucket to github.
 
-http://stackoverflow.com/a/26702623/3817717
+I then deleted my local development copy and used   git clone https://github.com/baltimore-sun-data/housing-map.git    to make sure I had the newly canonized version.
+
+I then went ont the server (where this map is live) and (after making a temporary backup to be safe) used the following commands: 
+
+git remote rm origin
+
+git remote add origin https://github.com/baltimore-sun-data/housing-map.git
+
+git pull origin master
+
+
+
+
 
 ### Who do I talk to? ###
 
